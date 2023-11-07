@@ -1,4 +1,4 @@
-# Main Topic: AirBnB clone - The console
+# AirBnB clone - The console
 
 The goal of the project is to deploy on your server a simple copy of the AirBnB website.
 At the end of the project we will have a complete web application composed by:
@@ -11,7 +11,7 @@ At the end of the project we will have a complete web application composed by:
 
 •	An API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them)
 
-## Subtopic 1: First step: Write a command interpreter to manage your AirBnB objects.
+## First step: Write a command interpreter to manage your AirBnB objects.
 
 This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration…
 Each task is linked and will help you to:
@@ -26,7 +26,7 @@ Each task is linked and will help you to:
 
 •	create all unittests to validate all our classes and storage engine
 
-## Subtopic 2: What’s a command interpreter?
+## What’s a command interpreter?
 
 Do you remember the Shell? It’s exactly the same but limited to a specific use-case. In our case, we want to be able to manage the objects of our project:
 
@@ -40,7 +40,7 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 
 •	Destroy an object
 
-## Subtopic 3: Execution
+## Execution
 
 Your shell should work like this in interactive mode:
 
@@ -48,7 +48,7 @@ $ ./console.py
 
 (hbnb) help
 
-Documented commands (type help <topic>):
+Documented commands (type help):
 ========================================
 
 EOF  help  quit
@@ -67,7 +67,7 @@ $ echo "help" | ./console.py
 
 (hbnb)
 
-Documented commands (type help <topic>):
+Documented commands (type help:
 ========================================
 
 EOF  help  quit
@@ -96,7 +96,7 @@ EOF  help  quit
 
 $
 
-## Subtopic 4: Testing
+## Testing
 
 Unittests for the AirBnB clone  project are defined in the tests folder.
 All your tests should be executed by using this command:
