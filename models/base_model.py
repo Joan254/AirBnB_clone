@@ -27,11 +27,11 @@ class BaseModel():
     def to_dict(self):
         """Returns a dictionary containing all keys/values of __dict__ of the instance"""
         obj_dict = self.__dict__.copy()
-        obj_dict['__class__'] = self.__class__.__name
+        obj_dict['__class__'] = self.__class__.__name__
         obj_dict['created_at'] = self.created_at.isoformat()
         obj_dict['updated_at'] = self.updated_at.isoformat()
         return obj_dict
 
     def __str__(self):
         """Custom string representation: should print [<class name>] (<self.id>) <self.__dict__>"""
-        return "[{}] ({}) {}".format(self.__class__.__name, self.id, self.__dict__)
+        return f"[BaseModel] ({self.id}) {self.__dict__}"
