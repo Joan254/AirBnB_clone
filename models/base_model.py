@@ -32,6 +32,6 @@ class BaseModel():
         obj_dict['updated_at'] = self.updated_at.isoformat()
         return obj_dict
 
-    def __str__():
+    def __str__(self):
         """Custom string representation: should print [<class name>] (<self.id>) <self.__dict__>"""
         return "[{}] ({}) {}".format(self.__class__.__name, self.id, self.__dict__)
