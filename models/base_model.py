@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import uuid
 from datetime import datetime
+import models
 """Defining a base class for the whole project"""
 
 
@@ -26,12 +27,14 @@ class BaseModel():
             current_time = datetime.now()
             self.created_at = current_time
             self.updated_at = current_time
+            models.storage.new(self)
 
     def save(self):
         """A public instance method to update the update_at
         with the current time.
         """
         self.updated_at = datetime.now()
+        models.storage.save()
 
     def to_dict(self):
         """Returns a dictionary containing all keys/values
@@ -47,4 +50,5 @@ class BaseModel():
         """Custom string representation:
         should print [<class name>] (<self.id>) <self.__dict__>
         """
-        return f"[BaseModel] ({self.id}) {self.__dict__}"
+        clsName = self.__class__.__name__
+        return "[{}] ({}) {}".format(clsName, self.id, self.__dict__)
