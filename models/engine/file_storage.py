@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
    Defining a filestorage class that serializes
-   instances to a json file and deserialises 
+   instances to a json file and deserialises
    json file to instances
 """
 
@@ -9,9 +9,18 @@
 import json
 import os
 from models.base_model import BaseModel
+from models.user import User
+from models.state import State
+from models.city import City
+from models.review import Review
+from models.amenity import Amenity
+from models.place import Place
 
 class_dict = {
-        "BaseModel": BaseModel
+        "BaseModel": BaseModel, "User": User,
+        "State": State, "City": City,
+        "Amenity": Amenity, "Place": Place,
+        "Review": Review
         }
 
 
@@ -32,7 +41,7 @@ class FileStorage:
         if obj.id in type(self).__objects:
             print("exists")
             return
-        key = "{}.{}".format(obj.__class__.__name__,obj.id)
+        key = "{}.{}".format(obj.__class__.__name__, obj.id)
         type(self).__objects[key] = obj
 
     def save(self):
@@ -41,7 +50,7 @@ class FileStorage:
         for obj in type(self).__objects.values():
             new_dict.append(obj.to_dict())
         with open(type(self).__file_path, "w", encoding='UTF-8') as file:
-            json.dump(new_dict,file)
+            json.dump(new_dict, file)
 
     def reload(self):
         """Deserializes the JSON file to __objects if it exists"""
