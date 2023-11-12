@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 #!/usr/bin/python3
 """Defines unittests for models/user.py.
 Unittest classes:
@@ -15,6 +14,7 @@ from models.base_model import BaseModel
 from datetime import datetime
 from time import sleep
 import uuid
+
 
 class TestUser_instantiation(unittest.TestCase):
     """User model class test case"""
