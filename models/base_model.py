@@ -16,7 +16,7 @@ class BaseModel():
                self.updated_time: The upated time
         """
         date_format = "%Y-%m-%dT%H:%M:%S.%f"
-        if kwargs:
+        if len(kwargs) != 0:
             for key, value in kwargs.items():
                 if "created_at" == key or "updated_at" == key:
                     self.__dict__[key] = datetime.strptime(value, date_format)
