@@ -65,18 +65,15 @@ article > h2 {
 	align-items: center;
 }
 
-.max_guest,
-.number_rooms,
-.number_bathrooms {
-	width: 100px;
-	text-align: center;
-}
-
 .max_guest > p,
 .number_bathrooms > p,
 .number_rooms > p {
-	margin-top: auto;
-	margin-bottom: auto;
+	line-height: 140px;
+	width: 100px;
+	height: 100%;
+	display: inline-block;
+	background-position: 50% 5px;
+	background-repeat: no-repeat;
 }
 
 .number_rooms {
