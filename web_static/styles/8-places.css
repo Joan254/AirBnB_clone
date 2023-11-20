@@ -40,6 +40,7 @@ div.information {
   height: 80px;
   border-top: 1px solid #DDDDDD;
   border-bottom: 1px solid #DDDDDD;
+  justify-content: space-around;
 }
 
 div.max_guest,
