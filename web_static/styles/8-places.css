@@ -84,7 +84,7 @@ article > h2 {
 	margin-right: auto;
 	height: 50px;
 	width: 50px;
-	background: url('../images/icon_bed.png') no-repeat center;
+	background: url("../images/icon_bed.png");
 }
 
 .guest_image {
@@ -92,7 +92,7 @@ article > h2 {
 	margin-right: auto;
 	height: 50px;
 	width: 50px;
-	background: url('../images/icon_group.png') no-repeat center;
+	background: url("../images/icon_group.png");
 }
 
 .bath_image {
@@ -100,18 +100,18 @@ article > h2 {
 	margin-right: auto;
 	height: 50px;
 	width: 50px;
-	background: url('../images/icon_bath.png') no-repeat center;
+	background: url("../images/icon_bath.png");
 }
 
 .user > p {
 	margin-top: 20px;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 	text-align: left;
 }
 
 .description > p {
 	margin-top: 15px;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 footer {
