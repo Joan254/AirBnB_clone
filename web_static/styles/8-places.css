@@ -54,15 +54,10 @@ article > h2 {
 }
 
 .information {
-	display: flex;
-	align-self: center;
 	height: 80px;
-	width: 100%;
 	border-top: 1px solid #dddddd;
 	border-bottom: 1px solid #dddddd;
-	margin-top: 30px;
 	justify-content: center;
-	align-items: center;
 }
 
 .max_guest > p,
