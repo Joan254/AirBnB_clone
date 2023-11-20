@@ -54,33 +54,55 @@ article > h2 {
 }
 
 .information {
+	display: flex;
+	align-self: center;
 	height: 80px;
+	width: 100%;
 	border-top: 1px solid #dddddd;
 	border-bottom: 1px solid #dddddd;
+	margin-top: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.max_guest,
+.number_rooms,
+.number_bathrooms {
+	width: 100px;
+	text-align: center;
 }
 
 .max_guest > p,
 .number_bathrooms > p,
 .number_rooms > p {
-	line-height: 140px;
-	width: 100px;
-	height: 100%;
-	display: inline-block;
-	background-position: 50% 5px;
-	background-repeat: no-repeat;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .number_rooms {
-	background: url("../images/icon_bed.png");
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	width: 50px;
+	background: url('../images/icon_bed.png') no-repeat center;
 }
 
 .max_guest {
-	background: url("../images/icon_group.png");
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	width: 50px;
+	background: url('../images/icon_group.png') no-repeat center;
 }
 
 .number_bathrooms {
-	background: url("../images/icon_bath.png");
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	width: 50px;
+	background: url('../images/icon_bath.png') no-repeat center;
 }
+
 
 .user,
 .description {
