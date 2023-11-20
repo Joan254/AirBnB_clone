@@ -4,6 +4,7 @@
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    position: relative;
 }
 
 .filters button {
@@ -19,5 +20,5 @@
 }
 
 .filters button:hover {
-    background-color: rgba(255, 90, 95, .9);
+    opacity: 90%;
 }
