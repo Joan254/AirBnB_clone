@@ -79,7 +79,7 @@ article > h2 {
 	margin-bottom: auto;
 }
 
-.bed_image {
+.number_rooms {
 	margin-left: auto;
 	margin-right: auto;
 	height: 50px;
@@ -87,7 +87,7 @@ article > h2 {
 	background: url("../images/icon_bed.png");
 }
 
-.guest_image {
+.max_guest {
 	margin-left: auto;
 	margin-right: auto;
 	height: 50px;
@@ -95,7 +95,7 @@ article > h2 {
 	background: url("../images/icon_group.png");
 }
 
-.bath_image {
+.number_bathrooms {
 	margin-left: auto;
 	margin-right: auto;
 	height: 50px;
@@ -103,15 +103,11 @@ article > h2 {
 	background: url("../images/icon_bath.png");
 }
 
-.user > p {
-	margin-top: 20px;
+.user,
+.description {
+        text-align: left;
 	margin-bottom: 10px;
-	text-align: left;
-}
-
-.description > p {
-	margin-top: 15px;
-	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 footer {
