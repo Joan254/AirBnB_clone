@@ -80,26 +80,14 @@ article > h2 {
 }
 
 .number_rooms {
-	margin-left: auto;
-	margin-right: auto;
-	height: 50px;
-	width: 50px;
 	background: url("../images/icon_bed.png");
 }
 
 .max_guest {
-	margin-left: auto;
-	margin-right: auto;
-	height: 50px;
-	width: 50px;
 	background: url("../images/icon_group.png");
 }
 
 .number_bathrooms {
-	margin-left: auto;
-	margin-right: auto;
-	height: 50px;
-	width: 50px;
 	background: url("../images/icon_bath.png");
 }
 
