@@ -4,7 +4,6 @@
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
-    position: relative;
 }
 
 .filters button {
@@ -19,36 +18,39 @@
     margin: 12px 30px
 }
 
-.locations {
-    display: inline-block;
-    vertical-align: middle;
-    height: 100%;
-    width: 25%;
-    margin-left: 45px;
-    border-right: 1px solid #DDDDDD;
-}
-
-.amenities {
-    display: inline-block;
-    vertical-align: middle;
-    height: 100%;
-    width: 25%;
-    margin-left: 45px;
-}
-
-h3 {
-    font-weight: 600;
-    margin-top: 12px;
-    margin-bottom: 5px;	
-}
-
-h4 {
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 5px;
-    margin-bottom: 12px;
-}
-
 .filters button:hover {
-    opacity: 90%;
+  background-color: rgba(255, 90, 95, .9);
+}
+
+.locations,
+.amenities {
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+}
+
+.locations {
+  border-right: 1px solid #DDDDDD;
+}
+
+.filters h2,
+.filters h3,
+.filters h4 {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.filters h3 {
+  font-size: 1.17em;
+  font-weight: 600;
+  height: 50%;
+  padding: 15.5px 0 0 30px;
+}
+
+.filters h4 {
+  font-size: 14px;
+  font-weight: 400;
+  height: 50%;
+  padding: 4.5px 0 12px 30px;
 }
