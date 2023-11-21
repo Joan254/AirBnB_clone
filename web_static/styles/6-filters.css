@@ -33,6 +33,7 @@ div.container {
     height: 100%;
     width: 25%;
     float: left;
+    position: relative;
 }
 
 .locations {
@@ -68,7 +69,9 @@ div.container {
     list-style-type: none;
     width: 100%;
     padding: 10px 30px 40px 0;
-    margin-top: 20px;
+    margin: 0;
+    top: 100%;
+    left: 0;
     z-index: 1;
 }
 
