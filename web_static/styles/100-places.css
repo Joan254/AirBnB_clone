@@ -64,13 +64,13 @@ div.number_bathrooms {
   margin-top: 10px;
 }
 
-article .amenities, article .reviews {
+.places .amenities, .places .reviews {
   margin-top: 40px;
 
   text-align: left;
 }
 
-article .amenities h2, article .reviews h2 {
+.places .amenities h2, .places .reviews h2 {
   font-size: 16px;
   border-bottom: #DDD 1px solid;
 
@@ -79,17 +79,17 @@ article .amenities h2, article .reviews h2 {
   padding-bottom: 10px;
 }
 
-article .amenities ul li, article .reviews ul li {
+.places .amenities ul li, .places .reviews ul li {
   list-style: none;
 }
 
-article .amenities ul {
+.places .amenities ul {
 
   padding-left: 0;
   margin-left: 0;
 }
 
-article .amenities ul li {
+.places .amenities ul li {
 
   margin: 0;
   padding: 10px 0 10px 40px;
@@ -98,31 +98,31 @@ article .amenities ul li {
   background-size: 25px;
 }
 
-article .amenities ul .tv_icon {
+.places .amenities ul .tv_icon {
   background-image: url("../images/icon_tv.png");
 }
 
-article .amenities ul .wifi_icon {
+.places .amenities ul .wifi_icon {
   background-image: url("../images/icon_wifi.png");
 }
 
-article .amenities ul .pets_icon {
+.places .amenities ul .pets_icon {
   background-image: url("../images/icon_pets.png");
 }
 
-article .reviews ul li h3 {
+.places .reviews ul li h3 {
   font-size: 14px;
 
   margin-bottom: 2px;
 }
 
-article .reviews ul li p {
+.places .reviews ul li p {
   font-size: 12px;
 
   margin-top: 0;
 }
 
-article .reviews ul {
+.places .reviews ul {
 
   padding-left: 0;
   margin-left: 0;
