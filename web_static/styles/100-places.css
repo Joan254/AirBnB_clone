@@ -64,38 +64,24 @@ div.number_bathrooms {
   margin-top: 10px;
 }
 
-.places .amenities, .places .reviews {
+.places .amenities,
+.places .reviews {
   margin-top: 40px;
-
-  text-align: left;
 }
 
-.places .amenities h2, .places .reviews h2 {
-  font-size: 16px;
-  border-bottom: #DDD 1px solid;
-
-  text-align: left;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
+.places .amenities li {
+  display: flex;
+  flex-direction: row;
 }
 
-.places .amenities ul li, .places .reviews ul li {
-  list-style: none;
-}
-
-.places .amenities ul {
-
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.places .amenities ul li {
-
-  margin: 0;
-  padding: 10px 0 10px 40px;
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-size: 25px;
+.places .amenities i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 5%;
 }
 
 .places .amenities ul .tv_icon {
@@ -110,22 +96,20 @@ div.number_bathrooms {
   background-image: url("../images/icon_pets.png");
 }
 
-.places .reviews ul li h3 {
+.places .amenities h2,
+.places .reviews h2 {
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.places .reviews h3 {
   font-size: 14px;
-
-  margin-bottom: 2px;
-}
-
-.places .reviews ul li p {
-  font-size: 12px;
-
-  margin-top: 0;
-}
-
-.places .reviews ul {
-
-  padding-left: 0;
-  margin-left: 0;
+  font-weight: bold;
+  margin-bottom: 6px;
+  margin-top: 20px;
 }
 
 footer {
