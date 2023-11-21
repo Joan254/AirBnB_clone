@@ -59,14 +59,40 @@ div.container {
     margin-left: 30px;
 }
 
-.popover h2 {
-    font-size: 16px;
-}
-li {
+.popover {
+    display: none;
+    position: relative;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
     list-style-type: none;
-    margin-top:10px;
-    margin-bottom: 10px;
+    width: 100%;
+    left: -30px;
+    padding: 10px 30px 40px 0;
+    margin-top: 20px;
+    z-index: 1;
 }
+
+.popover ul {
+    list-style-type: none;
+}
+
+.popover h2 {
+    margin-bottom: 5px;
+}
+
+.locations > .popover > li {
+    margin: 0 0 30px 30px;
+}
+
+.locations > .popover > li > ul {
+    padding-left: 30px;
+}
+
+.amenities > .popover > li {
+    margin: 10px 0 0 50px;
+}
+
 .locations:hover .popover,
 .amenities:hover .popover {
     display: block;
