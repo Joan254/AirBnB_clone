@@ -11,7 +11,7 @@ article {
   border-radius: 4px;
   padding: 20px;
   margin: 20px;
-  display: block;
+  display: inline-block;
   min-height: 250px;
   vertical-align: top;
 }
@@ -65,7 +65,7 @@ div.number_bathrooms {
 }
 
 .places article .amenities, .places article .reviews {
-  margin-top: 40px;
+  margin-top: 20px;
 
   text-align: left;
 }
@@ -81,16 +81,6 @@ div.number_bathrooms {
 
 .places article .amenities ul li, .places article .reviews ul li {
   list-style: none;
-}
-
-.places article .amenities ul {
-
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.places article .amenities ul li {
-
   margin: 0;
   padding: 10px 0 10px 40px;
   background-repeat: no-repeat;
@@ -123,12 +113,6 @@ div.number_bathrooms {
   font-size: 12px;
 
   margin-top: 0;
-}
-
-.places article .reviews ul {
-
-  padding-left: 0;
-  margin-left: 0;
 }
 
 footer {
